@@ -6,3 +6,5 @@
 !Preferences.sublime-settings
 !Package Control.sublime-settings
 !Default (Windows).sublime-keymap
+!CodeFormatter.sublime-settings
+!SublimeLinter.sublime-settings
