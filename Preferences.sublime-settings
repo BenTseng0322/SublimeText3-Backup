@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": true,
 	"auto_complete": true,
 	"auto_indent": true,
 	"caret_extra_bottom": 1,
@@ -17,6 +18,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Six",
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
@@ -29,5 +31,7 @@
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"update_check": false
+	"update_check": false,
+	"vintageous_use_ctrl_keys": true,
+    "fade_fold_buttons": false,
 }

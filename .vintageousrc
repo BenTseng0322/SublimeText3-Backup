@@ -1,0 +1,15 @@
+" The character " (the double quote mark) starts a comment
+
+let foldmethod=indent
+let foldlevel=1
+let foldclose=all
+
+" Enter command line mode using space
+nmap <space> :
+
+nmap <C-d> <C-d>zz
+nmap <C-u> <C-u>zz
+nmap G Gzz
+nmap j jzz
+nmap k kzz
+namp <C-S-[> <nop>

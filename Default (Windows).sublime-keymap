@@ -3,10 +3,25 @@
 
     { "keys": ["shift+backspace"], "command": "right_delete" },
 
-    { "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
-    { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
-    { "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
-    { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+    // { "keys": ["alt+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+    // { "keys": ["alt+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    // { "keys": ["alt+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+    // { "keys": ["alt+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+
+    // { "keys": ["ctrl+alt+j"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    // { "keys": ["ctrl+alt+l"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    // { "keys": ["ctrl+alt+i"], "command": "select_lines", "args": {"forward": false} },
+    // { "keys": ["ctrl+alt+k"], "command": "select_lines", "args": {"forward": true} },
+
+    { "keys": ["f1"], "command": "goto_python_definition"},
+    { "keys": ["f2"], "command": "back_to_python_definition"},
+
+    // { "keys": ["ctrl+x"], "command": "clipboard_manager_cut" },
+    // { "keys": ["ctrl+c"], "command": "clipboard_manager_copy" },
+    // { "keys": ["ctrl+v"], "command": "clipboard_manager_paste", "args": { "indent": true } },
+    // { "keys": ["ctrl+alt+v"], "command": "clipboard_manager_choose_and_paste" },
+    // { "keys": ["ctrl+shift+v"], "command": "clipboard_manager_show" },
+
 
     { "keys": ["ctrl+shift+u"], "command": "expand_region" },
     {
@@ -17,4 +32,17 @@
     },
 
     { "keys": ["shift+enter"], "command": "ace_jump_word" },
+
+    { "keys": ["alt+u"], "command": "my_open_fold" },
+
+    { "keys": ["alt+k", "alt+1"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["alt+k", "alt+2"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["alt+k", "alt+3"], "command": "fold_by_level", "args": {"level": 3} },
+    { "keys": ["alt+k", "alt+4"], "command": "fold_by_level", "args": {"level": 4} },
+    { "keys": ["alt+k", "alt+5"], "command": "fold_by_level", "args": {"level": 5} },
+    { "keys": ["alt+k", "alt+6"], "command": "fold_by_level", "args": {"level": 6} },
+    { "keys": ["alt+k", "alt+7"], "command": "fold_by_level", "args": {"level": 7} },
+    { "keys": ["alt+k", "alt+8"], "command": "fold_by_level", "args": {"level": 8} },
+    { "keys": ["alt+k", "alt+9"], "command": "fold_by_level", "args": {"level": 9} },
+    { "keys": ["alt+k", "alt+0"], "command": "unfold_all" },
 ]
